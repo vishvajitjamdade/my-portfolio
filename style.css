@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 90%;
+    height: 50px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.options{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+} 
+
+.options li a {
+    display: flex;
+    align-items: center; 
+    gap: 8px;            /* This creates a clean space between icon and text */
+    text-decoration: none;
+    color: #4b0082;     
+}
+
+.circle,img{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.info{
+    margin-top: 2rem;
+    height: 300px;
+    width: 400px;
+    border: 0px solid black;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.skills{
+    margin: 2.5rem auto;
+    border: 0px solid black;
+    height: 110px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btns{
+    margin: 0 10px;
+    height: 40px;
+    width: 85px;
+    border-radius: 10px;
+}
