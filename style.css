@@ -9,37 +9,36 @@
     justify-content: space-between;
     border: 1px solid black;
     width: 90%;
-    height: 50px;
-    padding: 0 20px;
+    height: 3rem;
+    padding: 0 1rem;
     margin: 0 auto;
 }
 
 .options{
     display: flex;
-    gap: 30px;
+    gap: 3rem;
     list-style: none;
-    
 } 
 
 .options li a {
     display: flex;
     align-items: center; 
-    gap: 8px;            /* This creates a clean space between icon and text */
+    gap: 1rem;            
     text-decoration: none;
     color: #4b0082;     
 }
 
 .circle,img{
     border: 1px solid black;
-    height: 200px;
-    width: 200px;
+    height: 11rem;
+    width: 11rem;
     border-radius: 50%;
 }
 
 .info{
     margin-top: 2rem;
-    height: 300px;
-    width: 400px;
+    height: 18rem;
+    width: 22rem;
     border: 0px solid black;
 }
 
@@ -52,8 +51,8 @@
 .skills{
     margin: 2.5rem auto;
     border: 0px solid black;
-    height: 110px;
-    width: 800px;
+    height: 8rem;
+    width: 55rem;
     display: flex;
     flex-wrap: wrap;
 }
@@ -63,4 +62,104 @@
     height: 40px;
     width: 85px;
     border-radius: 10px;
+}
+
+.projects{
+    height: 400px;
+    width: 90%;
+    border: 0px solid black;
+    margin: 0.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.project1,.project2,.project3 {
+    border: 0.0625rem solid black;
+    min-height: 18.8rem;
+    width: 12.5rem;
+    border-radius: 1.25rem;
+}
+
+.line img {
+    border: 0.0625rem solid black;
+    height: 10.625rem;
+    width: 12.5rem;
+    border-radius: 1.25rem;
+}
+
+.para{
+    text-align: center;
+}
+
+.live-btns{
+    margin-top: 0.7rem;
+    margin-left: 1.4rem;
+}
+
+.code{
+    margin-right: 2rem;
+    height: 1.rem;
+    width: 3.4rem;
+    cursor: pointer;
+    border-radius: 0.5rem; 
+    padding-right: 0.4rem; 
+    padding-top: 0.3rem; 
+    padding-bottom: 0.3rem;
+    background-color: rgb(99, 99, 233);
+}
+
+.project1,
+.project2,
+.project3 {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover {
+    transform: translateY(-0.625rem) scale(1.05);
+    box-shadow: 0 1.25rem 1.875rem rgba(0, 0, 0, 0.3);
+}
+
+h1{
+    text-align: center;
+}
+
+.contact{
+    border: 1px solid black;
+    height: 15rem;
+    margin: 2rem 2rem;
+    padding: 3em 3rem 3rem 4rem;
+}
+
+#name{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+
+#email{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+
+#email{
+    height: 2rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+
+#comment{
+    height: 5rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+
+#submit{
+    height: 2rem;
+    width: 4rem;
+    border-radius: 1.5rem;
 }
